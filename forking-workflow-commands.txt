@@ -1,0 +1,10 @@
+git fetch origin refs/pull/3/head
+git checkout -b tillschwoerer/my-branch FETCH_HEAD
+
+
+git checkout -b tillschwoerer-my-branch master
+git pull https://github.com/tillschwoerer/forking-workflow.git my-branch
+
+git checkout master
+git merge --no-ff tillschwoerer-my-branch
+git push origin master
