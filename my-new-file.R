@@ -8,3 +8,4 @@
 7^8
 stadt <- "Kiel"
 stadt <- "Hamburg"
+country <- "Spain"
